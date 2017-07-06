@@ -1,0 +1,63 @@
+    1  cd c;"
+    2  exit
+    3  q
+    4  cd c:
+    5  cd learngit/
+    6  ls
+    7  cd testproject/
+    8  ls
+    9  git branch
+   10  git branch mssqltest1
+   11  git checkout mssqltest1
+   12  ls -l
+   13  ls -a
+   14  checkout master
+   15  git checkout master
+   16  commit -a .
+   17  git commit -a .
+   18  git commit -a 
+   19  git add .
+   20  git commit -a -m "Master with subset of core package of sqlserver" 
+   21  git push
+   22  history
+   23  history > commands.txt
+   24  git branch
+   25  git branch -d mssqltest1
+   26  git branch sqlserver1
+   27  git checkout sqlserver1
+   28  git add .
+   29  git commit -a -m "create test branch for sqlserver"
+   30  git push
+   31  git push --set-upstream sqlserver1 sqlserver1
+   32  git remote add sqlserver1 https://github.com/jkim485/Test2Project.git
+   33  git push --set-upstream sqlserver1 sqlserver1
+   34  history > commands.txt
+   35  cd ..
+   36  ls
+   37  mkdir testmysqlproject
+   38  cd testmysqlproject/
+   39  git init
+   40  git add readme.txt
+   41  vim readme.txt
+   42  less readme.txt
+   43  ls
+   44  vi readme.txt
+   45  vi readme.txt
+   46  vi readme.txt
+   47  ls
+   48  vi readme.txt
+   49  vi readme.txt
+   50  vi readme.txt
+   51  ls
+   52  vi readme.txt
+   53  rm readme.txt 
+   54  vi readme.txt
+   55  ls -a
+   56  rm .readme.txt.swp
+   57  rm .readme.txt.swo 
+   58  vi readme.txt
+   59  git add readme.txt
+   60  git commit -m "first commit"
+   61  git remote add origin https://github.com/jkim485/testmysqlproject.git
+   62  git push -u origin master
+   63  history > commands.txt
